@@ -97,7 +97,7 @@ const sendOrderButton = document.getElementById("send-order");
    08xxxxxxxxxx
 ========================================================= */
 
-const WHATSAPP_NUMBER = "6281234567890";
+const WHATSAPP_NUMBER = "6281257699960";
 
 
 /* =========================================================
