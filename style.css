@@ -1095,12 +1095,19 @@ section {
 
     .site-header nav {
         min-height: 65px;
+        position: relative;
     }
 
+    /* HAMBURGER DI KIRI */
     .hamburger {
+        order: 1;
+
         display: inline-flex;
         align-items: center;
         justify-content: center;
+
+        width: 42px;
+        height: 42px;
 
         background: rgba(255, 255, 255, 0.72);
         border: 1px solid rgba(255, 255, 255, 0.85);
@@ -1111,21 +1118,60 @@ section {
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
     }
 
+
+    /* LOGO DI TENGAH */
+    .nav-logo {
+        order: 2;
+
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .nav-logo a {
+        font-size: 1.05rem;
+    }
+
+
+    /* AREA KERANJANG DI KANAN */
+    .nav-action {
+        order: 3;
+
+        margin-left: auto;
+    }
+
+
+    /* TOMBOL PESAN SEKARANG DISEMBUNYIKAN
+       PADA MOBILE */
+    .nav-order-button {
+        display: none;
+    }
+
+
+    /* TOMBOL KERANJANG */
+    .cart-button {
+        padding: 9px 10px;
+    }
+
+    .cart-label {
+        display: none;
+    }
+
+
+    /* MENU HAMBURGER */
     .nav-menu {
         position: absolute;
         top: 65px;
         left: 4%;
         width: 92%;
+
         padding: 18px;
 
-        /* Putih transparan */
         background: rgba(255, 255, 255, 0.72);
 
-        /* Blur konten di belakang */
         backdrop-filter: blur(14px);
         -webkit-backdrop-filter: blur(14px);
 
-        /* Border tipis */
         border: 1px solid rgba(255, 255, 255, 0.85);
 
         border-radius: 16px;
@@ -1135,39 +1181,49 @@ section {
             0 4px 12px rgba(0, 0, 0, 0.04);
 
         display: none;
+
         flex-direction: column;
         align-items: stretch;
         gap: 4px;
     }
 
+
     .nav-menu.active {
         display: flex;
     }
+
 
     .nav-menu > a {
         padding: 11px 10px;
         border-radius: 8px;
     }
 
+
     .nav-menu > a:hover {
-        background: #f0fdf4;
+        background: rgba(240, 253, 244, 0.75);
     }
+
 
     .mobile-action {
         display: block;
         margin-top: 7px;
     }
 
+
     .mobile-action a {
         display: block;
         padding: 12px;
+
         text-align: center;
+
         background: #15803d;
         color: white;
+
         border-radius: 9px;
+
         font-weight: 800;
     }
-
+}
     .nav-action {
         margin-left: auto;
     }
