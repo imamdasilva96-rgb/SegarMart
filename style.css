@@ -2359,3 +2359,22 @@ section {
     }
 
 }
+
+.moving-truck {
+    position: absolute;
+    z-index: 3;
+    left: 42%;
+    top: -18px;
+    width: 45px;
+    height: 45px;
+    animation: truckMove 3.5s ease-in-out infinite;
+}
+
+.moving-truck img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    filter: drop-shadow(0 4px 5px rgba(0, 0, 0, 0.12));
+}
+
