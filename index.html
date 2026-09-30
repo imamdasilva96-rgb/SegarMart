@@ -2,7 +2,6 @@
 <html lang="id">
 
 <head>
-
     <meta charset="UTF-8">
 
     <meta
@@ -12,16 +11,12 @@
 
     <meta
         name="description"
-        content="SegarMart - Bahan makanan segar untuk kebutuhan keluarga."
+        content="SegarMart menyediakan sayur, ikan, daging, ayam, telur dan bahan makanan segar untuk kebutuhan keluarga."
     >
 
     <title>SegarMart - Bahan Segar untuk Keluarga</title>
 
-    <link
-        rel="stylesheet"
-        href="style.css"
-    >
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
 
@@ -36,18 +31,12 @@
 
         <nav>
 
-            <!-- LOGO -->
-
             <div class="nav-logo">
-
                 <a href="#beranda">
                     🌿 SegarMart
                 </a>
-
             </div>
 
-
-            <!-- HAMBURGER -->
 
             <button
                 class="hamburger"
@@ -56,15 +45,9 @@
                 aria-label="Buka menu"
                 aria-expanded="false"
             >
-
-                <span></span>
-                <span></span>
-                <span></span>
-
+                ☰
             </button>
 
-
-            <!-- NAVIGATION MENU -->
 
             <div
                 class="nav-menu"
@@ -88,7 +71,7 @@
                 </a>
 
 
-                <!-- MOBILE ACTION -->
+                <!-- Tombol mobile -->
 
                 <div class="mobile-action">
 
@@ -101,8 +84,6 @@
             </div>
 
 
-            <!-- DESKTOP ACTION -->
-
             <div class="nav-action">
 
                 <a
@@ -112,8 +93,6 @@
                     🛒 Pesan Sekarang
                 </a>
 
-
-                <!-- TOMBOL KERANJANG -->
 
                 <button
                     class="cart-button"
@@ -153,7 +132,6 @@
 
     <main>
 
-
         <section
             class="hero"
             id="beranda"
@@ -162,92 +140,70 @@
             <div class="hero-content">
 
 
-                <!-- HERO TEXT -->
-
                 <div class="hero-text">
 
-                    <p class="hero-label">
-                        🌿 Bahan Segar Setiap Hari
-                    </p>
+                    <span class="section-label">
+                        SEGAR SETIAP HARI
+                    </span>
 
 
                     <h1>
-                        Bahan Segar untuk
-                        <span>Keluarga Anda</span>
+                        Bahan Segar untuk Keluarga Anda
                     </h1>
 
 
-                    <p class="hero-description">
+                    <p>
                         Sayur, ikan, daging, ayam dan bahan
-                        makanan segar untuk kebutuhan keluarga Anda.
+                        makanan segar untuk kebutuhan keluarga
+                        Anda.
                     </p>
 
 
-                    <a
-                        href="#produk-pilihan"
-                        class="hero-button"
-                    >
-                        🛒 Pesan Sekarang
-                    </a>
+                    <div class="hero-buttons">
+
+                        <a
+                            href="#produk-pilihan"
+                            class="hero-button primary"
+                        >
+                            🛒 Pesan Sekarang
+                        </a>
 
 
-                    <!-- INFORMASI PENGIRIMAN -->
+                        <a
+                            href="#cara-pesan"
+                            class="hero-button secondary"
+                        >
+                            Cara Pesan
+                        </a>
 
-                    <div class="delivery-info">
-
-
-                        <div class="delivery-item">
-
-                            <span>
-                                ⏰
-                            </span>
-
-                            <div>
-
-                                <strong>
-                                    Pesan maksimal
-                                </strong>
-
-                                <p>
-                                    22.00
-                                </p>
-
-                            </div>
-
-                        </div>
+                    </div>
 
 
-                        <div class="delivery-item">
+                    <div class="hero-delivery">
 
-                            <span>
-                                🚚
-                            </span>
+                        <span>
+                            ⏰ Pesan maksimal 22.00
+                        </span>
 
-                            <div>
-
-                                <strong>
-                                    Diantar besok
-                                </strong>
-
-                                <p>
-                                    07.00 - 10.00
-                                </p>
-
-                            </div>
-
-                        </div>
+                        <span>
+                            🚚 Diantar besok 07.00 - 10.00
+                        </span>
 
                     </div>
 
                 </div>
 
 
-                <!-- HERO IMAGE -->
 
                 <div class="hero-image">
 
+                    <!--
+                        GAMBAR HERO
+                        Tetap menggunakan gambar eksternal.
+                    -->
+
                     <img
-                        src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=900&q=80"
+                        src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=800&q=80"
                         alt="Sayuran segar"
                     >
 
@@ -259,9 +215,9 @@
 
 
 
-        <!-- =====================================================
+        <!-- =================================================
              KATEGORI PRODUK
-        ====================================================== -->
+        ================================================== -->
 
         <section
             class="categories"
@@ -270,16 +226,17 @@
 
             <div class="section-heading">
 
-                <p class="section-label">
-                    Pilihan Produk
-                </p>
+                <span class="section-label">
+                    PILIH SESUAI KEBUTUHAN
+                </span>
 
                 <h2>
-                    Kategori Bahan Segar
+                    Kategori Produk
                 </h2>
 
                 <p>
-                    Pilih kebutuhan bahan makanan yang Anda inginkan.
+                    Berbagai bahan makanan segar untuk
+                    kebutuhan sehari-hari keluarga.
                 </p>
 
             </div>
@@ -288,158 +245,118 @@
             <div class="categories-grid">
 
 
-                <!-- SAYURAN -->
+                <!-- Sayur -->
 
-                <a
-                    href="#produk-pilihan"
-                    class="category-card"
-                >
+                <div class="category-card">
 
-                    <span class="category-icon">
+                    <div class="category-icon">
                         🥬
-                    </span>
+                    </div>
 
                     <h3>
                         Sayuran
                     </h3>
 
                     <p>
-                        Sayuran segar setiap hari
+                        Sayuran segar untuk masakan keluarga.
                     </p>
 
-                </a>
+                </div>
 
 
-                <!-- IKAN -->
+                <!-- Ikan -->
 
-                <a
-                    href="#produk-pilihan"
-                    class="category-card"
-                >
+                <div class="category-card">
 
-                    <span class="category-icon">
+                    <div class="category-icon">
                         🐟
-                    </span>
+                    </div>
 
                     <h3>
                         Ikan
                     </h3>
 
                     <p>
-                        Ikan segar pilihan
+                        Ikan segar pilihan untuk menu keluarga.
                     </p>
 
-                </a>
+                </div>
 
 
-                <!-- UDANG -->
+                <!-- Daging -->
 
-                <a
-                    href="#produk-pilihan"
-                    class="category-card"
-                >
+                <div class="category-card">
 
-                    <span class="category-icon">
-                        🦐
-                    </span>
-
-                    <h3>
-                        Udang
-                    </h3>
-
-                    <p>
-                        Udang segar berkualitas
-                    </p>
-
-                </a>
-
-
-                <!-- DAGING -->
-
-                <a
-                    href="#produk-pilihan"
-                    class="category-card"
-                >
-
-                    <span class="category-icon">
+                    <div class="category-icon">
                         🥩
-                    </span>
+                    </div>
 
                     <h3>
                         Daging
                     </h3>
 
                     <p>
-                        Daging segar pilihan
+                        Daging segar untuk berbagai hidangan.
                     </p>
 
-                </a>
+                </div>
 
 
-                <!-- AYAM -->
+                <!-- Ayam -->
 
-                <a
-                    href="#produk-pilihan"
-                    class="category-card"
-                >
+                <div class="category-card">
 
-                    <span class="category-icon">
+                    <div class="category-icon">
                         🍗
-                    </span>
+                    </div>
 
                     <h3>
                         Ayam
                     </h3>
 
                     <p>
-                        Ayam segar untuk keluarga
+                        Ayam segar untuk keluarga.
                     </p>
 
-                </a>
+                </div>
 
 
-                <!-- TELUR -->
+                <!-- Telur -->
 
-                <a
-                    href="#produk-pilihan"
-                    class="category-card"
-                >
+                <div class="category-card">
 
-                    <span class="category-icon">
+                    <div class="category-icon">
                         🥚
-                    </span>
+                    </div>
 
                     <h3>
                         Telur
                     </h3>
 
                     <p>
-                        Telur segar setiap hari
+                        Telur segar setiap hari.
                     </p>
 
-                </a>
+                </div>
 
 
-                <!-- BUMBU -->
+                <!-- Bumbu -->
 
-                <a
-                    href="#produk-pilihan"
-                    class="category-card"
-                >
+                <div class="category-card">
 
-                    <span class="category-icon">
+                    <div class="category-icon">
                         🌶️
-                    </span>
+                    </div>
 
                     <h3>
                         Bumbu
                     </h3>
 
                     <p>
-                        Bumbu dapur pilihan
+                        Bumbu dapur pilihan.
                     </p>
 
-                </a>
+                </div>
 
             </div>
 
@@ -447,9 +364,9 @@
 
 
 
-        <!-- =====================================================
+        <!-- =================================================
              PRODUK PILIHAN
-        ====================================================== -->
+        ================================================== -->
 
         <section
             class="products"
@@ -458,9 +375,9 @@
 
             <div class="section-heading">
 
-                <p class="section-label">
-                    Produk Pilihan
-                </p>
+                <span class="section-label">
+                    PRODUK PILIHAN
+                </span>
 
                 <h2>
                     Bahan Segar untuk Hari Ini
@@ -477,16 +394,16 @@
             <div class="products-grid">
 
 
-                <!-- =================================================
-                     PRODUK 1 - KANGKUNG
-                ================================================== -->
+                <!-- =========================
+                     KANGKUNG
+                ========================== -->
 
-                <div class="product-card">
+                <article class="product-card">
 
                     <div class="product-image">
 
                         <img
-                            src="https://ik.trn.asia/uploads/2021/05/cara-menanam-kangkung-di-rumah.png"
+                            src="https://images.unsplash.com/photo-1576045057995-568f588f82fb?auto=format&fit=crop&w=800&q=80"
                             alt="Kangkung segar"
                         >
 
@@ -507,22 +424,14 @@
 
                         <div class="product-bottom">
 
-                            <div class="product-price">
-
-                                <strong>
-                                    Rp3.000
-                                </strong>
-
-                                <span>
-                                    / ikat
-                                </span>
-
-                            </div>
+                            <span class="product-price">
+                                Rp3.000 / ikat
+                            </span>
 
 
                             <button
-                                class="product-button"
                                 type="button"
+                                class="product-button"
                                 data-product="Kangkung"
                                 data-price="3000"
                                 data-unit="ikat"
@@ -534,20 +443,20 @@
 
                     </div>
 
-                </div>
+                </article>
 
 
 
-                <!-- =================================================
-                     PRODUK 2 - IKAN NILA
-                ================================================== -->
+                <!-- =========================
+                     IKAN NILA
+                ========================== -->
 
-                <div class="product-card">
+                <article class="product-card">
 
                     <div class="product-image">
 
                         <img
-                            src="https://ilmubudidaya.com/wp-content/uploads/2018/10/Ikan-Nila-Nifi-450x304.jpg"
+                            src="https://images.unsplash.com/photo-1534766438357-2b270b2a3d6b?auto=format&fit=crop&w=800&q=80"
                             alt="Ikan nila segar"
                         >
 
@@ -561,29 +470,21 @@
                         </h3>
 
                         <p class="product-description">
-                            Ikan nila segar pilihan untuk
-                            menu keluarga.
+                            Ikan nila segar pilihan untuk menu
+                            keluarga.
                         </p>
 
 
                         <div class="product-bottom">
 
-                            <div class="product-price">
-
-                                <strong>
-                                    Rp35.000
-                                </strong>
-
-                                <span>
-                                    / kg
-                                </span>
-
-                            </div>
+                            <span class="product-price">
+                                Rp35.000 / kg
+                            </span>
 
 
                             <button
-                                class="product-button"
                                 type="button"
+                                class="product-button"
                                 data-product="Ikan Nila"
                                 data-price="35000"
                                 data-unit="kg"
@@ -595,20 +496,20 @@
 
                     </div>
 
-                </div>
+                </article>
 
 
 
-                <!-- =================================================
-                     PRODUK 3 - UDANG
-                ================================================== -->
+                <!-- =========================
+                     UDANG
+                ========================== -->
 
-                <div class="product-card">
+                <article class="product-card">
 
                     <div class="product-image">
 
                         <img
-                            src="https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?auto=format&fit=crop&w=600&q=80"
+                            src="https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?auto=format&fit=crop&w=800&q=80"
                             alt="Udang merah segar"
                         >
 
@@ -622,29 +523,21 @@
                         </h3>
 
                         <p class="product-description">
-                            Udang segar untuk berbagai
-                            olahan masakan.
+                            Udang segar untuk berbagai olahan
+                            masakan.
                         </p>
 
 
                         <div class="product-bottom">
 
-                            <div class="product-price">
-
-                                <strong>
-                                    Rp60.000
-                                </strong>
-
-                                <span>
-                                    / kg
-                                </span>
-
-                            </div>
+                            <span class="product-price">
+                                Rp60.000 / kg
+                            </span>
 
 
                             <button
-                                class="product-button"
                                 type="button"
+                                class="product-button"
                                 data-product="Udang Merah"
                                 data-price="60000"
                                 data-unit="kg"
@@ -656,20 +549,20 @@
 
                     </div>
 
-                </div>
+                </article>
 
 
 
-                <!-- =================================================
-                     PRODUK 4 - SAPI
-                ================================================== -->
+                <!-- =========================
+                     SAPI
+                ========================== -->
 
-                <div class="product-card">
+                <article class="product-card">
 
                     <div class="product-image">
 
                         <img
-                            src="https://allofresh.id/blog/wp-content/uploads/2023/08/resep-olahan-daging-sapi-1-1-780x470.jpg"
+                            src="https://images.unsplash.com/photo-1603048297172-c92544798d5a?auto=format&fit=crop&w=800&q=80"
                             alt="Daging sapi segar"
                         >
 
@@ -690,22 +583,14 @@
 
                         <div class="product-bottom">
 
-                            <div class="product-price">
-
-                                <strong>
-                                    Rp120.000
-                                </strong>
-
-                                <span>
-                                    / kg
-                                </span>
-
-                            </div>
+                            <span class="product-price">
+                                Rp120.000 / kg
+                            </span>
 
 
                             <button
-                                class="product-button"
                                 type="button"
+                                class="product-button"
                                 data-product="Sapi"
                                 data-price="120000"
                                 data-unit="kg"
@@ -717,20 +602,20 @@
 
                     </div>
 
-                </div>
+                </article>
 
 
 
-                <!-- =================================================
-                     PRODUK 5 - AYAM
-                ================================================== -->
+                <!-- =========================
+                     AYAM
+                ========================== -->
 
-                <div class="product-card">
+                <article class="product-card">
 
                     <div class="product-image">
 
                         <img
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9GRpQb-_NfM9Jb_UgTwpwO5L7EAFc_JGFjwhCQMY2kg&s=10"
+                            src="https://images.unsplash.com/photo-1604503468506-a8da13d82791?auto=format&fit=crop&w=800&q=80"
                             alt="Ayam segar"
                         >
 
@@ -744,29 +629,21 @@
                         </h3>
 
                         <p class="product-description">
-                            Ayam segar untuk berbagai
-                            menu keluarga.
+                            Ayam segar untuk berbagai menu
+                            keluarga.
                         </p>
 
 
                         <div class="product-bottom">
 
-                            <div class="product-price">
-
-                                <strong>
-                                    Rp45.000
-                                </strong>
-
-                                <span>
-                                    / kg
-                                </span>
-
-                            </div>
+                            <span class="product-price">
+                                Rp45.000 / kg
+                            </span>
 
 
                             <button
-                                class="product-button"
                                 type="button"
+                                class="product-button"
                                 data-product="Ayam"
                                 data-price="45000"
                                 data-unit="kg"
@@ -778,20 +655,20 @@
 
                     </div>
 
-                </div>
+                </article>
 
 
 
-                <!-- =================================================
-                     PRODUK 6 - TELUR
-                ================================================== -->
+                <!-- =========================
+                     TELUR
+                ========================== -->
 
-                <div class="product-card">
+                <article class="product-card">
 
                     <div class="product-image">
 
                         <img
-                            src="https://images.unsplash.com/photo-1587486913049-53fc88980cfc?auto=format&fit=crop&w=600&q=80"
+                            src="https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?auto=format&fit=crop&w=800&q=80"
                             alt="Telur ayam segar"
                         >
 
@@ -812,12 +689,758 @@
 
                         <div class="product-bottom">
 
-                            <div class="product-price">
+                            <span class="product-price">
+                                Rp30.000 / kg
+                            </span>
 
-                                <strong>
-                                    Rp30.000
-                                </strong>
+
+                            <button
+                                type="button"
+                                class="product-button"
+                                data-product="Telur Ayam"
+                                data-price="30000"
+                                data-unit="kg"
+                            >
+                                Pesan
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             KERANJANG
+             PENTING:
+             ID = keranjang
+        ================================================== -->
+
+        <section
+            class="cart-section"
+            id="keranjang"
+        >
+
+            <div class="cart-section-header">
+
+                <span class="section-label">
+                    PESANAN ANDA
+                </span>
+
+                <h2>
+                    Keranjang Belanja
+                </h2>
+
+                <p>
+                    Periksa produk dan jumlah pesanan
+                    sebelum mengirimkan pesanan.
+                </p>
+
+            </div>
+
+
+            <div class="cart-layout">
+
+
+                <!-- =========================
+                     DAFTAR PRODUK
+                ========================== -->
+
+                <div class="cart-products-card">
+
+                    <div class="cart-card-header">
+
+                        <div class="cart-header-icon">
+                            🛒
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                Produk yang Dipilih
+                            </h3>
+
+                            <p>
+                                Atur jumlah produk pesanan Anda.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div
+                        class="cart-items"
+                        id="cart-items"
+                    >
+
+                        <!--
+                            Akan diisi otomatis oleh JavaScript.
+                        -->
+
+                        <div class="cart-empty">
+
+                            <div class="cart-empty-icon">
+                                🛒
+                            </div>
+
+                            <h3>
+                                Keranjang masih kosong
+                            </h3>
+
+                            <p>
+                                Silakan pilih produk di atas
+                                untuk mulai membuat pesanan.
+                            </p>
+
+                            <a
+                                href="#produk-pilihan"
+                                class="cart-empty-button"
+                            >
+                                Lihat Produk
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="cart-unit-note">
+
+                        <strong>
+                            Informasi jumlah
+                        </strong>
+
+                        <small>
+                            Produk kg dapat dipesan dalam
+                            kelipatan 0,1 kg.
+                            1 ons = 0,1 kg.
+                            Contoh: 0,5 kg = 5 ons,
+                            1,3 kg = 1 kg 3 ons.
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =========================
+                     FORM PEMESANAN
+                ========================== -->
+
+                <div class="cart-order-card">
+
+                    <div class="cart-card-header">
+
+                        <div class="cart-header-icon">
+                            📋
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                Data Pemesanan
+                            </h3>
+
+                            <p>
+                                Isi data untuk pengiriman.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- TOTAL -->
+
+                    <div class="cart-total-box">
+
+                        <span>
+                            Total Pesanan
+                        </span>
+
+                        <strong id="cart-total">
+                            Rp0
+                        </strong>
+
+                    </div>
+
+
+
+                    <!-- FORM -->
+
+                    <form
+                        class="cart-form"
+                        id="order-form"
+                    >
+
+
+                        <!-- Nama -->
+
+                        <div class="cart-form-group">
+
+                            <label for="customer-name">
+                                Nama Penerima
+                            </label>
+
+                            <input
+                                type="text"
+                                id="customer-name"
+                                name="customer-name"
+                                placeholder="Masukkan nama penerima"
+                                autocomplete="name"
+                                required
+                            >
+
+                        </div>
+
+
+
+                        <!-- WhatsApp -->
+
+                        <div class="cart-form-group">
+
+                            <label for="customer-phone">
+                                Nomor WhatsApp
+                            </label>
+
+                            <input
+                                type="tel"
+                                id="customer-phone"
+                                name="customer-phone"
+                                placeholder="Contoh: 081234567890"
+                                autocomplete="tel"
+                                required
+                            >
+
+                        </div>
+
+
+
+                        <!-- Alamat -->
+
+                        <div class="cart-form-group">
+
+                            <label for="customer-address">
+                                Alamat Pengiriman
+                            </label>
+
+                            <textarea
+                                id="customer-address"
+                                name="customer-address"
+                                placeholder="Masukkan alamat lengkap pengiriman"
+                                autocomplete="street-address"
+                                required
+                            ></textarea>
+
+                        </div>
+
+
+
+                        <!-- Catatan -->
+
+                        <div class="cart-form-group">
+
+                            <label for="customer-note">
+
+                                Catatan
 
                                 <span>
-                                    / kg
-                              
+                                    (opsional)
+                                </span>
+
+                            </label>
+
+                            <textarea
+                                id="customer-note"
+                                name="customer-note"
+                                placeholder="Contoh: Tolong pilih ikan yang masih segar."
+                            ></textarea>
+
+                        </div>
+
+
+
+                        <!-- INFO DELIVERY -->
+
+                        <div class="delivery-info">
+
+                            <strong>
+                                🚚 Informasi Pengiriman
+                            </strong>
+
+                            Pesanan maksimal pukul
+                            <strong>22.00</strong>
+                            akan diproses untuk pengiriman
+                            berikutnya pada pukul
+                            <strong>07.00 - 10.00</strong>.
+
+                        </div>
+
+
+
+                        <!-- BUTTON WHATSAPP -->
+
+                        <button
+                            type="submit"
+                            class="cart-send-button"
+                            id="send-order"
+                            disabled
+                        >
+                            📱 Kirim Pesanan via WhatsApp
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             TENTANG / KEUNGGULAN
+        ================================================== -->
+
+        <section
+            class="benefits"
+            id="tentang"
+        >
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    KENAPA SEGARMART?
+                </span>
+
+                <h2>
+                    Belanja Lebih Praktis
+                </h2>
+
+                <p>
+                    Kami membantu Anda mendapatkan bahan
+                    makanan segar tanpa harus repot.
+                </p>
+
+            </div>
+
+
+            <div class="benefits-grid">
+
+
+                <div class="benefit-card">
+
+                    <div class="benefit-icon">
+                        🥬
+                    </div>
+
+                    <h3>
+                        Bahan Segar
+                    </h3>
+
+                    <p>
+                        Produk dipilih untuk menjaga kualitas
+                        dan kesegaran bahan makanan.
+                    </p>
+
+                </div>
+
+
+                <div class="benefit-card">
+
+                    <div class="benefit-icon">
+                        🛒
+                    </div>
+
+                    <h3>
+                        Pesan dengan Mudah
+                    </h3>
+
+                    <p>
+                        Pilih produk, atur jumlah, lalu
+                        kirim pesanan melalui WhatsApp.
+                    </p>
+
+                </div>
+
+
+                <div class="benefit-card">
+
+                    <div class="benefit-icon">
+                        ⏰
+                    </div>
+
+                    <h3>
+                        Jadwal Jelas
+                    </h3>
+
+                    <p>
+                        Pesanan maksimal pukul 22.00 diproses
+                        untuk pengiriman berikutnya.
+                    </p>
+
+                </div>
+
+
+                <div class="benefit-card">
+
+                    <div class="benefit-icon">
+                        🚚
+                    </div>
+
+                    <h3>
+                        Diantar ke Rumah
+                    </h3>
+
+                    <p>
+                        Pesanan diantar pada jadwal pengiriman
+                        yang telah ditentukan.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             CARA PESAN
+        ================================================== -->
+
+        <section
+            class="how-to"
+            id="cara-pesan"
+        >
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    CARA PESAN
+                </span>
+
+                <h2>
+                    Pesan Semudah 4 Langkah
+                </h2>
+
+                <p>
+                    Tidak perlu membuat akun.
+                    Pilih produk dan kirim pesanan.
+                </p>
+
+            </div>
+
+
+            <div class="how-to-grid">
+
+
+                <div class="how-to-card">
+
+                    <div class="how-to-number">
+                        1
+                    </div>
+
+                    <h3>
+                        Pilih Produk
+                    </h3>
+
+                    <p>
+                        Pilih bahan makanan yang ingin
+                        Anda pesan.
+                    </p>
+
+                </div>
+
+
+                <div class="how-to-card">
+
+                    <div class="how-to-number">
+                        2
+                    </div>
+
+                    <h3>
+                        Atur Jumlah
+                    </h3>
+
+                    <p>
+                        Tentukan jumlah produk sesuai
+                        kebutuhan keluarga.
+                    </p>
+
+                </div>
+
+
+                <div class="how-to-card">
+
+                    <div class="how-to-number">
+                        3
+                    </div>
+
+                    <h3>
+                        Isi Data
+                    </h3>
+
+                    <p>
+                        Masukkan nama, WhatsApp dan
+                        alamat pengiriman.
+                    </p>
+
+                </div>
+
+
+                <div class="how-to-card">
+
+                    <div class="how-to-number">
+                        4
+                    </div>
+
+                    <h3>
+                        Kirim Pesanan
+                    </h3>
+
+                    <p>
+                        Kirim detail pesanan melalui
+                        WhatsApp SegarMart.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             TESTIMONI
+        ================================================== -->
+
+        <section class="testimonials">
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    TESTIMONI
+                </span>
+
+                <h2>
+                    Pengalaman Pelanggan
+                </h2>
+
+                <p>
+                    Contoh tampilan testimoni pelanggan
+                    SegarMart.
+                </p>
+
+            </div>
+
+
+            <div class="testimonials-grid">
+
+
+                <div class="testimonial-card">
+
+                    <div class="testimonial-stars">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        "Pesannya gampang dan tidak perlu
+                        datang langsung ke pasar."
+                    </p>
+
+                    <strong>
+                        — Pelanggan SegarMart
+                    </strong>
+
+                </div>
+
+
+                <div class="testimonial-card">
+
+                    <div class="testimonial-stars">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        "Sayurnya masih segar dan pengiriman
+                        sesuai jadwal."
+                    </p>
+
+                    <strong>
+                        — Pelanggan SegarMart
+                    </strong>
+
+                </div>
+
+
+                <div class="testimonial-card">
+
+                    <div class="testimonial-stars">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        "Cocok untuk kebutuhan bahan makanan
+                        keluarga sehari-hari."
+                    </p>
+
+                    <strong>
+                        — Pelanggan SegarMart
+                    </strong>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             CTA
+        ================================================== -->
+
+        <section class="cta">
+
+            <div class="cta-content">
+
+                <h2>
+                    Siapkan Bahan Segar untuk Keluarga
+                </h2>
+
+                <p>
+                    Pilih kebutuhan Anda hari ini dan
+                    pesan sebelum pukul 22.00.
+                </p>
+
+                <a
+                    href="#produk-pilihan"
+                    class="cta-button"
+                >
+                    🛒 Mulai Belanja
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="site-footer">
+
+        <div class="footer-content">
+
+
+            <!-- Brand -->
+
+            <div class="footer-brand">
+
+                <h3>
+                    🌿 SegarMart
+                </h3>
+
+                <p>
+                    Bahan makanan segar untuk kebutuhan
+                    keluarga. Pesan hari ini, diantar
+                    sesuai jadwal pengiriman.
+                </p>
+
+            </div>
+
+
+
+            <!-- Menu -->
+
+            <div class="footer-column">
+
+                <h4>
+                    Menu
+                </h4>
+
+                <a href="#beranda">
+                    Beranda
+                </a>
+
+                <a href="#produk">
+                    Produk
+                </a>
+
+                <a href="#produk-pilihan">
+                    Produk Pilihan
+                </a>
+
+                <a href="#keranjang">
+                    Keranjang
+                </a>
+
+                <a href="#cara-pesan">
+                    Cara Pesan
+                </a>
+
+            </div>
+
+
+
+            <!-- Informasi -->
+
+            <div class="footer-column">
+
+                <h4>
+                    Informasi
+                </h4>
+
+                <p>
+                    ⏰ Cutoff: 22.00
+                </p>
+
+                <p>
+                    🚚 Pengiriman: 07.00 - 10.00
+                </p>
+
+                <p>
+                    📱 Pemesanan melalui WhatsApp
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="footer-bottom">
+
+            © 2026 SegarMart.
+            Semua hak dilindungi.
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+    ====================================================== -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
